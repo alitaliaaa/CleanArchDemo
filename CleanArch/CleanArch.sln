@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch", "CleanArch.csproj", "{6ED68BC3-33CE-41EA-851D-2286D1B47D72}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Application", "CleanArch.Application", "{4DF6E4E5-4D62-4FEE-BE59-196C9908EA43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Domain", "CleanArch.Domain", "{CBA175EC-7F95-4C14-9B78-983C781E37E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC", "{2DE4629E-5E75-4E89-BFD0-E6269BC99E90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data", "{0078FD3E-F191-4A36-ACC5-55BE14A8F993}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.MVC", "CleanArch.UI.MVC", "{EC8C158E-E831-4511-BFEA-958ABCBCCECA}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6ED68BC3-33CE-41EA-851D-2286D1B47D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6ED68BC3-33CE-41EA-851D-2286D1B47D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6ED68BC3-33CE-41EA-851D-2286D1B47D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6ED68BC3-33CE-41EA-851D-2286D1B47D72}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
